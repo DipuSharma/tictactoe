@@ -14,3 +14,76 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  text-align: center;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gamemenu{
+  text-align: center;
+}
+
+.gameboard{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  height: 300px;
+  grid-gap: 8px;
+}
+.container{
+  width: 300;
+  align-items: center;
+}
+.square {
+  background-color: lightblue;
+  border-radius: 8px;
+  background-image: url(https://i.imgur.com/OVBsgc1.jpg);
+  box-shadow: 2px 4px 2px rgb(14, 11, 11);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.modal{
+  margin-top: 30px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgb(5, 5, 5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(255, 255, 255);
+  transform: translate(-50%, -50%) scale(0);
+  transition: scale 0.2s;
+
+}
+.modal.show{
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal_title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+button{
+  border: none;
+  border-radius: 15px;
+  width: 70%;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: blue;
+}
