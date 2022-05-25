@@ -1,4 +1,3 @@
-import styles from "./TicTacToe.module.css";
 import { useEffect, useState } from "react";
 
 const Win_Combo = [
