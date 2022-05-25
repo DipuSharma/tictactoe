@@ -18,7 +18,10 @@ a {
 h1 {
   text-align: center;
 }
-
+p {
+  text-align: center;
+  color: brown;
+}
 .game{
   display: flex;
   flex-direction: column;
@@ -63,8 +66,9 @@ h1 {
   padding: 25px;
   text-align: center;
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 50%;
+  margin-left: 10px;
   background-color: rgba(255, 255, 255);
   transform: translate(-50%, -50%) scale(0);
   transition: scale 0.2s;
@@ -85,5 +89,5 @@ button{
   height: 35px;
   font-size: 18px;
   font-weight: 600;
-  background-color: blue;
+  background-color: rgb(184, 110, 253);
 }

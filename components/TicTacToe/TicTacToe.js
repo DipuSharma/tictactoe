@@ -79,7 +79,8 @@ export default function TicTacToe() {
     }
     return (
         <div>
-            <h1>Tic Tac Toe</h1>
+            <h1>Design and Develop By Dipu</h1>
+            <p>Tic Tac Toe Game</p>
             <div className="game">
                 <div className="gamemenu">
                     <p>{xTurn === true ? "X" : "O"}</p>
